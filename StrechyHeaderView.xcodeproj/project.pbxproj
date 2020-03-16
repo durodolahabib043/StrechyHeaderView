@@ -13,6 +13,8 @@
 		82B31EF6241EEE4D00AA0695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B31EF4241EEE4D00AA0695 /* Main.storyboard */; };
 		82B31EF8241EEE5000AA0695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82B31EF7241EEE5000AA0695 /* Assets.xcassets */; };
 		82B31EFB241EEE5000AA0695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B31EF9241EEE5000AA0695 /* LaunchScreen.storyboard */; };
+		82B31F04241EF99000AA0695 /* INPCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B31F02241EF99000AA0695 /* INPCollectionViewCell.swift */; };
+		82B31F05241EF99000AA0695 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82B31F03241EF99000AA0695 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		82B31EF7241EEE5000AA0695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82B31EFA241EEE5000AA0695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82B31EFC241EEE5000AA0695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82B31F02241EF99000AA0695 /* INPCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INPCollectionViewCell.swift; sourceTree = "<group>"; };
+		82B31F03241EF99000AA0695 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				82B31EF7241EEE5000AA0695 /* Assets.xcassets */,
 				82B31EF9241EEE5000AA0695 /* LaunchScreen.storyboard */,
 				82B31EFC241EEE5000AA0695 /* Info.plist */,
+				82B31F02241EF99000AA0695 /* INPCollectionViewCell.swift */,
+				82B31F03241EF99000AA0695 /* CollectionViewCell.xib */,
 			);
 			path = StrechyHeaderView;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				82B31EFB241EEE5000AA0695 /* LaunchScreen.storyboard in Resources */,
 				82B31EF8241EEE5000AA0695 /* Assets.xcassets in Resources */,
+				82B31F05241EF99000AA0695 /* CollectionViewCell.xib in Resources */,
 				82B31EF6241EEE4D00AA0695 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				82B31EF3241EEE4D00AA0695 /* ViewController.swift in Sources */,
 				82B31EEF241EEE4D00AA0695 /* AppDelegate.swift in Sources */,
+				82B31F04241EF99000AA0695 /* INPCollectionViewCell.swift in Sources */,
 				82B31EF1241EEE4D00AA0695 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
