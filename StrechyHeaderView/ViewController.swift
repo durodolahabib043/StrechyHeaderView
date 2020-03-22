@@ -8,9 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController , UICollectionViewDelegate, UICollectionViewDataSource , UICollectionViewDelegateFlowLayout{
-
-
+class ViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
     let collectionViewHeaderFooterReuseIdentifier = "headerViewCollection"
@@ -31,8 +29,10 @@ class ViewController: UIViewController , UICollectionViewDelegate, UICollectionV
         super.viewDidLoad()
         setUpCollectionView()
     }
+}
 
 
+extension ViewController  : UICollectionViewDelegate, UICollectionViewDataSource , UICollectionViewDelegateFlowLayout{
     // MARK: Collection View
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 20
@@ -67,4 +67,5 @@ class ViewController: UIViewController , UICollectionViewDelegate, UICollectionV
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return .init(width: view.frame.width, height: 50)
     }
+    
 }
