@@ -15,6 +15,7 @@ class HeaderViewCollectionViewCollectionReusableView: UICollectionReusableView {
        super.init(frame: frame)
         self.backgroundColor = UIColor.black
     
+    
     }
 
     required init?(coder: NSCoder) {
